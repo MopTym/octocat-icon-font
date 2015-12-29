@@ -40,6 +40,8 @@
   right: auto;
   line-height: 1;
   text-decoration: none;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
   z-index: 1000px; }
 
 .octocat-tr {
@@ -50,6 +52,8 @@
   right: 0;
   line-height: 1;
   text-decoration: none;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
   z-index: 1000px; }
 
 .octocat-bl {
@@ -60,8 +64,6 @@
   right: auto;
   line-height: 1;
   text-decoration: none;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
   z-index: 1000px; }
 
 .octocat-br {
@@ -72,8 +74,6 @@
   right: 0;
   line-height: 1;
   text-decoration: none;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
   z-index: 1000px; }
 
 .octocat-shy-t {

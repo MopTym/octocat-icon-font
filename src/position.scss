@@ -6,7 +6,7 @@
     right: $right;
     line-height: 1;
     text-decoration: none;
-    @if ($bottom == 0) { transform: rotate(180deg); }
+    @if ($top == 0) { transform: rotate(180deg); }
     z-index: 1000px;
 }
 
