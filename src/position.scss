@@ -4,12 +4,22 @@
     bottom: $bottom;
     left: $left;
     right: $right;
-    line-height: 1;
+    height: 1em;
+    line-height: 1em;
     text-decoration: none;
     @if ($top == 0) { transform: rotate(180deg); }
+    overflow: hidden;
     z-index: 1000px;
+    
+    &:after {
+        content: "";
+        height: 100%;
+        display: inline-block;
+    }
 }
 
+.octocat-t { @include position(0, auto, auto, auto); }
+.octocat-b { @include position(auto, 0, auto, auto); }
 .octocat-tl { @include position(0, auto, 0, auto); }
 .octocat-tr { @include position(0, auto, auto, 0); }
 .octocat-bl { @include position(auto, 0, 0, auto); }
