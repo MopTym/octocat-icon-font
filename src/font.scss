@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'octocat';
+  src: url('./fonts/octocat.eot');
+  src: url('./fonts/octocat.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/octocat.woff') format('woff'),
+       url('./fonts/octocat.ttf') format('truetype'),
+       url('./fonts/octocat.svg#octocat') format('svg');
+}
+
+.octocat-icon {
+  font-family: 'octocat' !important;
+  font-style: normal;
+}
+
+.octocat-icon.close-eyes:before { content: $char-close-eyes; }
+.octocat-icon.open-eyes:before { content: $char-open-eyes; }

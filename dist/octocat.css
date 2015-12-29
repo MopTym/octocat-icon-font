@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'octocat';
+  src: url("./fonts/octocat.eot");
+  src: url("./fonts/octocat.eot?#iefix") format("embedded-opentype"), url("./fonts/octocat.woff") format("woff"), url("./fonts/octocat.ttf") format("truetype"), url("./fonts/octocat.svg#octocat") format("svg"); }
+
+.octocat-icon {
+  font-family: 'octocat' !important;
+  font-style: normal; }
+
+.octocat-icon.close-eyes:before {
+  content: ""; }
+
+.octocat-icon.open-eyes:before {
+  content: ""; }
+
+.octocat-sm {
+  font-size: 50px; }
+
+.octocat-md {
+  font-size: 80px; }
+
+.octocat-lg {
+  font-size: 120px; }
+
+.octocat-x-lg {
+  font-size: 160px; }
+
+.octocat-xx-lg {
+  font-size: 200px; }
+
+.octocat-xxx-lg {
+  font-size: 240px; }
+
+.octocat-tl {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: auto;
+  line-height: 1;
+  text-decoration: none;
+  z-index: 1000px; }
+
+.octocat-tr {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  left: auto;
+  right: 0;
+  line-height: 1;
+  text-decoration: none;
+  z-index: 1000px; }
+
+.octocat-bl {
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 1000px; }
+
+.octocat-br {
+  position: fixed;
+  top: auto;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  line-height: 1;
+  text-decoration: none;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  z-index: 1000px; }
+
+.octocat-shy-t {
+  -webkit-transform: rotate(180deg) translate(0, 30%);
+  transform: rotate(180deg) translate(0, 30%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-decoration: none;
+  opacity: .2; }
+  .octocat-shy-t:hover {
+    -webkit-transform: rotate(180deg) translate(0, 0);
+    transform: rotate(180deg) translate(0, 0);
+    opacity: 1; }
+  .octocat-shy-t:before {
+    content: ""; }
+  .octocat-shy-t:hover:before {
+    content: ""; }
+
+.octocat-shy-b {
+  -webkit-transform: rotate(0) translate(0, 30%);
+  transform: rotate(0) translate(0, 30%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-decoration: none;
+  opacity: .2; }
+  .octocat-shy-b:hover {
+    -webkit-transform: rotate(0) translate(0, 0);
+    transform: rotate(0) translate(0, 0);
+    opacity: 1; }
+  .octocat-shy-b:before {
+    content: ""; }
+  .octocat-shy-b:hover:before {
+    content: ""; }

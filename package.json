@@ -1,0 +1,33 @@
+{
+  "name": "octocat-icon-font",
+  "version": "1.0.0",
+  "description": "GitHub octocat icon font / Fork me icon",
+  "main": "dist/octocat.css",
+  "scripts": {
+    "test": "echo '42'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MopTym/octocat-icon-font.git"
+  },
+  "keywords": [
+    "github",
+    "octocat",
+    "fork",
+    "icon",
+    "font"
+  ],
+  "author": "MopTym <moptym@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MopTym/octocat-icon-font/issues"
+  },
+  "homepage": "https://github.com/MopTym/octocat-icon-font#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1"
+  }
+}

@@ -1,0 +1,16 @@
+@mixin position($top, $bottom, $left, $right) {
+    position: fixed;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+    line-height: 1;
+    text-decoration: none;
+    @if ($bottom == 0) { transform: rotate(180deg); }
+    z-index: 1000px;
+}
+
+.octocat-tl { @include position(0, auto, 0, auto); }
+.octocat-tr { @include position(0, auto, auto, 0); }
+.octocat-bl { @include position(auto, 0, 0, auto); }
+.octocat-br { @include position(auto, 0, auto, 0); }

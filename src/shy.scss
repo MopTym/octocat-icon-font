@@ -1,0 +1,24 @@
+@mixin shy($name, $x, $y) {
+    .octocat-shy-#{$name} {
+        transform: rotate(if($y < 0, 180deg, 0))
+                   translate($x, abs($y));
+        transition: all 300ms ease;
+        text-decoration: none;
+        opacity: .2;
+        
+        &:hover {
+            transform: rotate(if($y < 0, 180deg, 0))
+                       translate(0, 0);
+            opacity: 1;
+        }
+        &:before {
+            content: $char-close-eyes;
+        }
+        &:hover:before {
+            content: $char-open-eyes;
+        }
+    }
+}
+
+@include shy('t', 0, -30%);
+@include shy('b', 0, 30%);
