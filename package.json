@@ -1,6 +1,6 @@
 {
   "name": "octocat-icon-font",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub octocat icon font / Fork me icon",
   "main": "dist/octocat.css",
   "scripts": {
