@@ -1,6 +1,6 @@
 # octocat-icon-font
 
-[![Version](https://img.shields.io/npm/v/octocat-icon-font.svg?style=flat-square)](https://www.npmjs.com/package/do-slide)
+[![Version](https://img.shields.io/npm/v/octocat-icon-font.svg?style=flat-square)](https://www.npmjs.com/package/octocat-icon-font)
 [![License](https://img.shields.io/npm/l/octocat-icon-font.svg?style=flat-square)](LICENSE)
 
 GitHub octocat icon font / Fork me icon
