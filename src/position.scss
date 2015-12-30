@@ -9,7 +9,7 @@
     text-decoration: none;
     @if ($top == 0) { transform: rotate(180deg); }
     overflow: hidden;
-    z-index: 1000px;
+    z-index: 1000;
     
     &:after {
         content: "";

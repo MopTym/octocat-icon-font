@@ -44,7 +44,7 @@
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-t:after {
     content: "";
     height: 100%;
@@ -60,7 +60,7 @@
   line-height: 1em;
   text-decoration: none;
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-b:after {
     content: "";
     height: 100%;
@@ -78,7 +78,7 @@
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-tl:after {
     content: "";
     height: 100%;
@@ -96,7 +96,7 @@
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-tr:after {
     content: "";
     height: 100%;
@@ -112,7 +112,7 @@
   line-height: 1em;
   text-decoration: none;
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-bl:after {
     content: "";
     height: 100%;
@@ -128,7 +128,7 @@
   line-height: 1em;
   text-decoration: none;
   overflow: hidden;
-  z-index: 1000px; }
+  z-index: 1000; }
   .octocat-br:after {
     content: "";
     height: 100%;
