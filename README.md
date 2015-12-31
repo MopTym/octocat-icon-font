@@ -35,7 +35,7 @@ Add classes:
 
 #### Base
 
-- `octocat-icon`: Basic class that define the font icon.
+- `octocat-icon`: Basic class that define the font.
 
 #### Type
 
